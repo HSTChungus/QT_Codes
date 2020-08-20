@@ -26,7 +26,9 @@ Home_Screen::~Home_Screen()
 void Home_Screen::on_CamSetUP_clicked()
 {
 
-
+    Mat src;
+    time_t iTime = 0;
+    time_t cTime = 0;
     char const* CamWindow = "Eye Tracker";
 
     VideoCapture cap(0);
