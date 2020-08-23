@@ -1,0 +1,8 @@
+Add this file to folder of QT Project
+    Run to copy and make exe on pi
+
+
+
+
+Add .pri file to QT_Programs folder on Pi
+    Needed to include OCV with QT
